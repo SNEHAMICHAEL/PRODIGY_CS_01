@@ -32,7 +32,13 @@ where k takes on a value in the range 1 to 25. The decryption algorithm is simpl
 
 p= D(k, C) = (Ck) mod 26
 
-# Examples
+### Description
+In this task, I created a Python program that performs the following functions:
+- Encrypts a given message using the Caesar Cipher algorithm.
+- Decrypts an encrypted message using the same algorithm.
+- Allows users to input a message and a shift value to perform the encryption and decryption.
+
+### Examples
 
 Enter your message: APPLE
 
@@ -41,3 +47,14 @@ Enter the shift value: 3
 Encrypted text is DSSOH
 
 Decrypted text is APPLE
+
+### Key Learnings
+From this task, I gained knowledge and experience in:
+- Understanding the Caesar Cipher algorithm and its applications in cryptography.
+- Implementing encryption and decryption functions in Python.
+- Handling user input and performing string manipulations in Python.
+
+### Repository Contents
+- `PRODIGY_CS_01.py`: The main Python script containing the implementation of the Caesar Cipher.
+- `README.md`: This file, providing an overview of the task and the project.
+
